@@ -14,8 +14,8 @@ def main():
 
     data_html(get_html(url))
     data_merger()
+    
     from data_html import size
-    print(size)
     print(send_mail(size))
 
 
